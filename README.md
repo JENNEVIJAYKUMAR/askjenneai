@@ -2,6 +2,10 @@
 
 AI powered search assistant inspired by Perplexity AI.
 
+## System Architecture
+
+Jenne AI follows a production-style, RAG-inspired workflow where user queries are processed, relevant web sources are retrieved, filtered, and transformed into source-grounded answers with evaluation signals such as confidence and hallucination risk.
+
 ## Features
 - AI search chatbot
 - Real-time web results
